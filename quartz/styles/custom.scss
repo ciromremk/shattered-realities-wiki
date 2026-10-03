@@ -146,6 +146,10 @@ body[data-slug="generals/survis/ciro-unleashed-boss-killer"] .article-title {
    Degradado de fondo en toda la pagina: Ciro Unleashed Boss Killer
    ========================================================== */
 body[data-slug="generals/survis/ciro-unleashed-boss-killer"] {
+  --secondary: #2d51e2;
+  --tertiary: #ff6431;
+  --textHighlight: #2d51e2cc;
+  --highlight: rgba(45, 81, 226, 0.14);
   background-image: linear-gradient(
     160deg,
     rgba(45, 81, 226, 0.22) 0%,
@@ -156,6 +160,10 @@ body[data-slug="generals/survis/ciro-unleashed-boss-killer"] {
 }
 
 :root[saved-theme="dark"] body[data-slug="generals/survis/ciro-unleashed-boss-killer"] {
+  --secondary: #7b93ff;
+  --tertiary: #ff6431;
+  --textHighlight: #a8b8ffcc;
+  --highlight: rgba(123, 147, 255, 0.16);
   background-image: linear-gradient(
     160deg,
     rgba(45, 81, 226, 0.32) 0%,
