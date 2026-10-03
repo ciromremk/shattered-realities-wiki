@@ -131,6 +131,21 @@ body[data-slug="generals/survis/barry-the-hedgehog"] {
   background-image: linear-gradient(160deg, #07392d 0%, #0f0032 70%);
 }
 
+/* ---------- BUC - Bloodlust Unleashed Ciro: rojo sangre ---------- */
+body[data-slug="generals/killer/buc---bloodlust-unleashed-ciro"] {
+  --secondary: #c1121f;
+  --tertiary: #2d51e2;
+  --textHighlight: #c1121fcc;
+  --highlight: rgba(193, 18, 31, 0.14);
+}
+
+:root[saved-theme="dark"] body[data-slug="generals/killer/buc---bloodlust-unleashed-ciro"] {
+  --secondary: #ff4d5a;
+  --tertiary: #7b93ff;
+  --textHighlight: #ff8a8acc;
+  --highlight: rgba(255, 77, 90, 0.16);
+}
+
 /* brillo del titulo por personaje (solo modo oscuro) */
 :root[saved-theme="dark"] body[data-slug="generals/survis/ciro-remk"] .article-title {
   text-shadow: 0 0 18px rgba(123, 147, 255, 0.35);
@@ -168,9 +183,22 @@ body[data-slug="generals/survis/ciro-unleashed-boss-killer"] .article-title {
   padding-bottom: 0.15rem;
 }
 
+body[data-slug="generals/killer/buc---bloodlust-unleashed-ciro"] .article-title {
+  display: inline-block;
+  width: fit-content;
+  background-image: linear-gradient(90deg, #ff6431 0%, #c1121f 50%, #2d51e2 100%);
+  background-size: 100% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 0.15rem;
+}
+
 /* el degradado sustituye al brillo del titulo */
 :root[saved-theme="dark"] body[data-slug="generals/survis/ciro-remk"] .article-title,
-:root[saved-theme="dark"] body[data-slug="generals/survis/ciro-unleashed-boss-killer"] .article-title {
+:root[saved-theme="dark"] body[data-slug="generals/survis/ciro-unleashed-boss-killer"] .article-title,
+:root[saved-theme="dark"] body[data-slug="generals/killer/buc---bloodlust-unleashed-ciro"] .article-title {
   text-shadow: none;
 }
 
