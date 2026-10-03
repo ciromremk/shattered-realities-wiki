@@ -118,3 +118,23 @@ body[data-slug="generals/survis/barry-the-hedgehog"] {
 :root[saved-theme="dark"] body[data-slug="generals/survis/barry-the-hedgehog"] .article-title {
   text-shadow: 0 0 18px rgba(20, 160, 106, 0.32);
 }
+
+/* ==========================================================
+   Degradado horizontal en el nombre: azul -> naranja
+   (Ciro ReMK y Ciro Unleashed Boss Killer)
+   ========================================================== */
+body[data-slug="generals/survis/ciro-remk"] .article-title,
+body[data-slug="generals/survis/ciro-unleashed-boss-killer"] .article-title {
+  background-image: linear-gradient(90deg, #2d51e2 0%, #ff6431 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 0.15rem;
+}
+
+/* el degradado sustituye al brillo azul del titulo */
+:root[saved-theme="dark"] body[data-slug="generals/survis/ciro-remk"] .article-title,
+:root[saved-theme="dark"] body[data-slug="generals/survis/ciro-unleashed-boss-killer"] .article-title {
+  text-shadow: none;
+}
