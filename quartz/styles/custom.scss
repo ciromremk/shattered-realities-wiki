@@ -80,19 +80,32 @@ body[data-slug^="generals"] table {
    Colores por personaje (pagan sobre los de su seccion)
    ========================================================== */
 
-/* ---------- Ciro ReMK: azul ---------- */
+/* ---------- Ciro ReMK: naranja (inverso de Unleashed) ---------- */
 body[data-slug="generals/survis/ciro-remk"] {
-  --secondary: #2d51e2;
-  --tertiary: #1b36a8;
-  --textHighlight: #2d51e2cc;
-  --highlight: rgba(45, 81, 226, 0.14);
+  --secondary: #ff6431;
+  --tertiary: #2d51e2;
+  --textHighlight: #ff6431cc;
+  --highlight: rgba(255, 100, 49, 0.14);
+  background-image: linear-gradient(
+    160deg,
+    rgba(255, 100, 49, 0.22) 0%,
+    rgba(45, 81, 226, 0.16) 55%,
+    transparent 100%
+  );
+  background-attachment: fixed;
 }
 
 :root[saved-theme="dark"] body[data-slug="generals/survis/ciro-remk"] {
-  --secondary: #7b93ff;
-  --tertiary: #2d51e2;
-  --textHighlight: #a8b8ffcc;
-  --highlight: rgba(123, 147, 255, 0.16);
+  --secondary: #ff8a5c;
+  --tertiary: #7b93ff;
+  --textHighlight: #ffb499cc;
+  --highlight: rgba(255, 138, 92, 0.16);
+  background-image: linear-gradient(
+    160deg,
+    rgba(255, 100, 49, 0.32) 0%,
+    rgba(45, 81, 226, 0.22) 55%,
+    transparent 100%
+  );
 }
 
 /* ---------- Barry The Hedgehog: verde azulado oscuro ---------- */
@@ -121,9 +134,20 @@ body[data-slug="generals/survis/barry-the-hedgehog"] {
 
 /* ==========================================================
    Degradado horizontal en el nombre: azul -> naranja
-   (Ciro ReMK y Ciro Unleashed Boss Killer)
+   (Ciro ReMK: naranja -> azul, Ciro Unleashed: azul -> naranja)
    ========================================================== */
-body[data-slug="generals/survis/ciro-remk"] .article-title,
+body[data-slug="generals/survis/ciro-remk"] .article-title {
+  display: inline-block;
+  width: fit-content;
+  background-image: linear-gradient(90deg, #ff6431 0%, #2d51e2 100%);
+  background-size: 100% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 0.15rem;
+}
+
 body[data-slug="generals/survis/ciro-unleashed-boss-killer"] .article-title {
   display: inline-block;
   width: fit-content;
@@ -136,7 +160,7 @@ body[data-slug="generals/survis/ciro-unleashed-boss-killer"] .article-title {
   padding-bottom: 0.15rem;
 }
 
-/* el degradado sustituye al brillo azul del titulo */
+/* el degradado sustituye al brillo del titulo */
 :root[saved-theme="dark"] body[data-slug="generals/survis/ciro-remk"] .article-title,
 :root[saved-theme="dark"] body[data-slug="generals/survis/ciro-unleashed-boss-killer"] .article-title {
   text-shadow: none;
