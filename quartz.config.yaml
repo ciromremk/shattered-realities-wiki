@@ -8,6 +8,7 @@ configuration:
   baseUrl: ciromremk.github.io/shattered-realities-wiki
   ignorePatterns:
     - private
+    - "**/dev/**"
     - templates
     - .obsidian
   theme:

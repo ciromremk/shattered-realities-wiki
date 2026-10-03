@@ -24,11 +24,10 @@ tags: [hub]
 | [[No Cowards]] | Anti jugadores pasivos (medidor de inactividad). |
 | [[Movimiento]] | Caminar/correr/saltar, roll universal, iframes. |
 | [[Salud y Daño]] | HP 100, estándar 2 vidas, Determination. |
-| [[Modos de Mapa]] | Mapa con salida / con timer / LPS + Timer Block. |
+| [[Modos de Mapa]] | Mapa con salida / con timer / Juggernaut + Timer Block. |
+| [[LPS]] | Last Player Standing: qué es y qué cambia. |
 | [[Anti-stunlock]] | i-frames del killer + excepción *Unstopable*. |
 | [[OST]] | Rod'zBeat y los LMS del juego. |
-| [[Roadmap]] | Hoja de ruta de desarrollo. |
-| [[Reglas de Oro]] | Reglas de programación. |
 
 ## Killers
 
@@ -42,7 +41,7 @@ tags: [hub]
 | Nota | Rol | Estado |
 | ---- | --- | ------ |
 | [[Ciro ReMK]] | Support → Baiter | Activo (HP 75). |
-| [[Barry The Hedgehog]] | Stuner → Sniper+Staller / Support → Carryer | WIP (HP 100). |
+| [[Barry The Hedgehog]] | Stuner → Staller / Support → Carryer | WIP (HP 100). |
 | [[Ciro Unleashed Boss Killer]] | Super Sonic (privados) | CONCEPTO — no tocar aún. |
 | [[Supervivientes Futuros]] | Moniasx, Lilith, Rod, Poker | NO desarrollar aún. |
 

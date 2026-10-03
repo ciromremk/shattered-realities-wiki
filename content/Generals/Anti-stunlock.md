@@ -1,5 +1,4 @@
 ---
-
 tipo: general
 tags: [sistema]
 ---
@@ -7,10 +6,16 @@ tags: [sistema]
 
 Volver: [[index|Shattered Realities]]
 
-- El killer recibe **i-frames después de cada stun** → nadie puede encadenarlo infinitamente.
-- **Unstopable** *(pasiva, portadores confirmados: [[Barry The Hedgehog|Barry]])*: los survis que la poseen pueden **atacar al killer mientras está stuneado** y así **sumar tiempo de stun**. Es la única excepción al anti-stunlock; el resto de survis no puede extender stuns.
-  - Ver [[Barry The Hedgehog#Pasivas|Unstopable en Barry]].
-  - [[Ciro ReMK|Ciro]] NO extiende stuns (su *Perfect Parry* sololeben 1.5s, sin romper la regla).
+## La regla
+- Cuando un exe queda **stuneado**, empieza a contar la **excepción Unstopable**.
+- Al terminar el stun, el exe entra en **i-frames**: es el estado que impide que lo vuelvan a encadenar.
+
+En otras palabras: **durante el stun** se puede seguir pegándole (solo quien tenga Unstopable), **después del stun** hay i-frames y no se puede encadenar.
+
+## Unstopable (única excepción)
+- **Portadores confirmados:** [[Barry The Hedgehog|Barry]].
+- Un survi con Unstopable puede **atacar al exe mientras está stuneado** y así **sumar tiempo de stun**.
+- Los survis **sin** esta pasiva no pueden extender el stun.
 
 ## Related
-- [[Tipos de Killer]] · [[Ciro ReMK]] · [[Barry The Hedgehog]]
+- [[Tipos de Killer]] · [[Roles]] (Stunner) · [[Barry The Hedgehog]]

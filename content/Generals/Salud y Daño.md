@@ -8,7 +8,6 @@ tags: [sistema]
 Volver: [[index|Shattered Realities]]
 
 - **HP promedio: 100**.
-- El killer puede o no tener barra de vida según sea [[Tipos de Killer|tipo normal o boss]].
 
 ## Estándar de vidas
 - **2 vidas** — Estados: **Primera Vida → Caído → Última Vida → Muerto**. Los aliados pueden revivir a caídos.

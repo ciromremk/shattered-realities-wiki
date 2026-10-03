@@ -15,6 +15,6 @@ tags: [personaje, survivor, futuro]
 - **Poker One:** Tank.
 
 ## Nota de lore
-Los Ciros del roster **no se conocen** entre sí (versiones juveniles distintas). El autor decidió **no documentar el lore del roster** por ahora (era innecesario).
+Los personajes del roster **sí se conocen entre sí en sus versiones modernas**, pero los que aparecen en el juego son las versiones **classic**, y esas **no se conocen entre sí**.
 
 Volver: [[index|Shattered Realities]] · [[Roles]]

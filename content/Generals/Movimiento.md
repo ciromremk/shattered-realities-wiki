@@ -8,7 +8,7 @@ tags: [sistema]
 Volver: [[index|Shattered Realities]]
 
 - **Caminar, correr, saltar** (sin stamina).
-- **Roll (universal, solo supervivientes)**: al caer desde gran altura, el superviviente **rueda** → reduce el aturdimiento de aterrizaje + **0.5s de iframes**. Sin momentum: es pura recuperación, no herramienta de speed.
+- **Roll (universal, solo supervivientes)**: al caer desde gran altura, el superviviente **rueda** → **0.5s de iframes**. Sin momentum: es pura recuperación, no herramienta de speed.
 - El killer **no** puede rodar.
 - No hay *momentum* de Sonic en el diseño base.
 

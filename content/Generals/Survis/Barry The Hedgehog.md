@@ -6,7 +6,7 @@ tags: [personaje, survivor]
 ---
 # Barry The Hedgehog
 
-## Rol: **Stuner → Sniper + Staller** / **Support → Carryer** (ver [[Roles]])
+## Rol: **Stuner → Staller** / **Support → Carryer** (ver [[Roles]])
 
 > **Fantasía:** velocista con la **Esmeralda Azul**; juega en cadena de stuns y apoya llevando compañeros.
 > **Kit:** **3 activas** + 4 pasivas. HP: **100** (estándar, 2 vidas).
@@ -44,8 +44,5 @@ Volver: [[index|Shattered Realities]] · [[Roles]]
 
 ## Pendiente / WIP
 - **(Todo sujeto a cambios)** por su creador.
-- Economía de la **Chaos Bar** sin definir todavía (qué la llena y qué la gasta).
-- **Chaos Control:** duración del stun y CD por definir; tabla exacta costo-barra por distancia por definir.
-- **Misma explosión, con matiz de usos:** *Chaos Blast* es la **misma explosión** en ambos casos; lo que cambia es que *I'll Leave the Rest to You* (quien agarra la esmeralda) la obtiene con **3 usos**, y el modo LPS de *Chaos Control* la dispara puntualmente (30% / 50% de barra). *(Resuelto por el autor.)*
-- **No hay sistema de esmeraldas compartido:** las únicas esmeraldas en el juego son la de **Barry** y la de [[BUC - Bloodlust Unleashed Ciro|BUC]]; la **única Chaos Emerald es la de Barry**. *(Confirmado por el autor.)* La Esmeralda Azul NO se conecta con otras esmeraldas.
-- Los 6s del 3.º stun de la cadena: siempre y cuando Barry sea portador de *Unstopable*, se mantiene; vigilar el balance en 1v8.
+- Economía de la **Chaos Bar**: qué la llena y qué la gasta.
+- **Chaos Control:** duración del stun y CD; tabla exacta de costo de barra por distancia.
