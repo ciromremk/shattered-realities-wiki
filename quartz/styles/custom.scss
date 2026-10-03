@@ -75,3 +75,46 @@ body[data-slug^="generals"] .article-title {
 body[data-slug^="generals"] table {
   border-top: 2px solid var(--secondary);
 }
+
+/* ==========================================================
+   Colores por personaje (pagan sobre los de su seccion)
+   ========================================================== */
+
+/* ---------- Ciro ReMK: azul ---------- */
+body[data-slug="generals/survis/ciro-remk"] {
+  --secondary: #2d51e2;
+  --tertiary: #1b36a8;
+  --textHighlight: #2d51e2cc;
+  --highlight: rgba(45, 81, 226, 0.14);
+}
+
+:root[saved-theme="dark"] body[data-slug="generals/survis/ciro-remk"] {
+  --secondary: #7b93ff;
+  --tertiary: #2d51e2;
+  --textHighlight: #a8b8ffcc;
+  --highlight: rgba(123, 147, 255, 0.16);
+}
+
+/* ---------- Barry The Hedgehog: verde azulado oscuro ---------- */
+body[data-slug="generals/survis/barry-the-hedgehog"] {
+  --secondary: #076d44;
+  --tertiary: #055030;
+  --textHighlight: #076d44cc;
+  --highlight: rgba(7, 109, 68, 0.14);
+}
+
+:root[saved-theme="dark"] body[data-slug="generals/survis/barry-the-hedgehog"] {
+  --secondary: #14a06a;
+  --tertiary: #076d44;
+  --textHighlight: #4fd1a5cc;
+  --highlight: rgba(20, 160, 106, 0.16);
+}
+
+/* brillo del titulo por personaje (solo modo oscuro) */
+:root[saved-theme="dark"] body[data-slug="generals/survis/ciro-remk"] .article-title {
+  text-shadow: 0 0 18px rgba(123, 147, 255, 0.35);
+}
+
+:root[saved-theme="dark"] body[data-slug="generals/survis/barry-the-hedgehog"] .article-title {
+  text-shadow: 0 0 18px rgba(20, 160, 106, 0.32);
+}
