@@ -1,3 +1,77 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+/* ==========================================================
+   Shattered Realities - colores custom por seccion
+   Se aplica segun el <body data-slug="..."> de cada pagina.
+   ========================================================== */
+
+/* ---------- KILLERS: rojo sangre (tema base) ---------- */
+body[data-slug^="generals/killer"] {
+  --secondary: #c1121f;
+  --tertiary: #8e1b24;
+  --textHighlight: #c1121fcc;
+  --highlight: rgba(193, 18, 31, 0.14);
+}
+
+:root[saved-theme="dark"] body[data-slug^="generals/killer"] {
+  --secondary: #ff4d5a;
+  --tertiary: #c1121f;
+  --textHighlight: #ff8a8acc;
+  --highlight: rgba(255, 77, 90, 0.16);
+}
+
+/* ---------- SURVIVORS: verde/toxina ---------- */
+body[data-slug^="generals/survis"] {
+  --secondary: #1f7a5c;
+  --tertiary: #145c46;
+  --textHighlight: #1f7a5ccc;
+  --highlight: rgba(31, 122, 92, 0.14);
+}
+
+:root[saved-theme="dark"] body[data-slug^="generals/survis"] {
+  --secondary: #4fd1a5;
+  --tertiary: #1f7a5c;
+  --textHighlight: #7ee2bdcc;
+  --highlight: rgba(79, 209, 165, 0.16);
+}
+
+/* ---------- SISTEMAS / REGLAS GENERALES: ambar ---------- */
+body[data-slug^="generals"]:not([data-slug^="generals/killer"]):not([data-slug^="generals/survis"]) {
+  --secondary: #a16207;
+  --tertiary: #7c4a03;
+  --textHighlight: #a16207cc;
+  --highlight: rgba(161, 98, 7, 0.14);
+}
+
+:root[saved-theme="dark"] body[data-slug^="generals"]:not([data-slug^="generals/killer"]):not([data-slug^="generals/survis"]) {
+  --secondary: #fbbf24;
+  --tertiary: #a16207;
+  --textHighlight: #fcd34dcc;
+  --highlight: rgba(251, 191, 36, 0.16);
+}
+
+/* ---------- Detalles decorativos por seccion ---------- */
+
+/* barra de color sobre el titulo de la pagina */
+body[data-slug^="generals"] .article-title {
+  border-top: 3px solid var(--secondary);
+  padding-top: 0.35rem;
+}
+
+/* brillo sutil en el titulo segun la seccion (solo modo oscuro) */
+:root[saved-theme="dark"] body[data-slug^="generals/killer"] .article-title {
+  text-shadow: 0 0 18px rgba(255, 77, 90, 0.35);
+}
+
+:root[saved-theme="dark"] body[data-slug^="generals/survis"] .article-title {
+  text-shadow: 0 0 18px rgba(79, 209, 165, 0.3);
+}
+
+:root[saved-theme="dark"] body[data-slug^="generals"]:not([data-slug^="generals/killer"]):not([data-slug^="generals/survis"]) .article-title {
+  text-shadow: 0 0 18px rgba(251, 191, 36, 0.28);
+}
+
+/* borde superior de color en las tablas de cada seccion */
+body[data-slug^="generals"] table {
+  border-top: 2px solid var(--secondary);
+}
