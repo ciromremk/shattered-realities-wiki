@@ -108,19 +108,27 @@ body[data-slug="generals/survis/ciro-remk"] {
   );
 }
 
-/* ---------- Barry The Hedgehog: verde azulado oscuro ---------- */
+/* ---------- Barry The Hedgehog: verde principal, azul secundario ---------- */
 body[data-slug="generals/survis/barry-the-hedgehog"] {
-  --secondary: #076d44;
-  --tertiary: #055030;
-  --textHighlight: #076d44cc;
-  --highlight: rgba(7, 109, 68, 0.14);
+  --secondary: #066c43;
+  --tertiary: #0d3dc5;
+  --textHighlight: #066c43cc;
+  --highlight: rgba(6, 108, 67, 0.14);
+  background-image: linear-gradient(
+    160deg,
+    rgba(6, 108, 67, 0.2) 0%,
+    rgba(13, 61, 197, 0.16) 55%,
+    transparent 100%
+  );
+  background-attachment: fixed;
 }
 
 :root[saved-theme="dark"] body[data-slug="generals/survis/barry-the-hedgehog"] {
-  --secondary: #14a06a;
-  --tertiary: #076d44;
+  --secondary: #12a06a;
+  --tertiary: #6b93ff;
   --textHighlight: #4fd1a5cc;
-  --highlight: rgba(20, 160, 106, 0.16);
+  --highlight: rgba(18, 160, 106, 0.16);
+  background-image: linear-gradient(160deg, #07392d 0%, #0f0032 70%);
 }
 
 /* brillo del titulo por personaje (solo modo oscuro) */
