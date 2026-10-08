@@ -8,7 +8,6 @@ Volver: [[index|Shattered Realities]]
 
 - **Rush Killer** — killer **regular**, no cazable. Foco en **velocidad/presión** y control de espacio. Ej: [[Titanus]].
 - **Boss** — killer **cazable**. Ej: [[BUC - Bloodlust Unleashed Ciro]].
-- **Rush/Boss** — mezcla de ambos (presión + velocidad **y** cazable). Ej: [[BUC - Bloodlust Unleashed Ciro]].
 - *(Más tipos por definir.)*
 
 ## Related

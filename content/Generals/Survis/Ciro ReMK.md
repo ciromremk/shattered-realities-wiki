@@ -15,9 +15,8 @@ Volver: [[index|Shattered Realities]] · [[Roles]]
 
 ## Lore — Classic Ciro (el del juego)
 - **Designación:** `C1R0_ReMK-01` — primer prototipo del **Proyecto ReMK**. No es un nombre, es una clasificación de arma.
-- **"Ciro"/"Leroy":** nombre que le da **Astra Markwood**, científica responsable de su evaluación en **Diamond's Labs** (laboratorio militar de experimentos). Ella es su figura materna ("es solo un niño" vs. el mando que lo llama "arma").
-- **Apariencia:** erizo de pelaje azul oscuro (casi negro bajo ciertas luces), púas con **puntas blancas**, **heterocromía** (ojo izquierdo azul eléctrico, ojo derecho naranja/llama), **TRES colas de zorro** (izquierda azul, derecha naranja, central blanca), mono de compresión negro, guantes blancos, botas negras y **collar identificador blanco** con la placa `C1R0_ReMK-01`.
-- **Personalidad/estado:** tranquilo, casi despreocupado, silencioso y obediente. Creció como experimento; Astra le dio una infancia a medias dentro de una instalación militar. Es, simplemente, "un niño" — un niño arma.
+- **Apariencia:** erizo de pelaje azul oscuro (casi negro bajo ciertas luces), púas con **puntas blancas**, **heterocromía** (ojo izquierdo azul eléctrico, ojo derecho naranja/llama), **TRES colas de zorro** (izquierda azul, derecha naranja, central blanca), mono de compresión negro, guantes blancos, 
+- **Personalidad/estado:** tranquilo, casi despreocupado, burlón y medio revelde. Creció como experimento; Astra le dio una infancia a medias dentro de una instalación militar. Es, simplemente, "un niño" — un niño arma.
 - **Capacidad base:** velocidad extrema (116 km/h en pruebas), acrobacias y giros; sus colas funcionan como timones naturales de estabilización.
 
 ## Activas

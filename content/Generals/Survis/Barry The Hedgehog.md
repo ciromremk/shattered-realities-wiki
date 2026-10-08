@@ -44,5 +44,4 @@ Volver: [[index|Shattered Realities]] · [[Roles]]
 
 ## Pendiente / WIP
 - **(Todo sujeto a cambios)** por su creador.
-- Economía de la **Chaos Bar**: qué la llena y qué la gasta.
 - **Chaos Control:** duración del stun y CD; tabla exacta de costo de barra por distancia.
