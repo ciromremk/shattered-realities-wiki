@@ -22,7 +22,7 @@ tags: [hub]
 | [[Concepto General]] | Bases del juego: sin stamina, sin escondites, 1 de cada survi. |
 | [[Roles]] | Árbol de roles de supervivientes (Stuner/Support/Tank + sub-clases). |
 | [[No Cowards]] | Anti jugadores pasivos (medidor de inactividad). |
-| [[Movimiento]] | Caminar/correr/saltar, roll universal, iframes. |
+| [[Movimiento]] | Caminar/correr/saltar, roll de recuperación (sin iframes). |
 | [[Salud y Daño]] | HP 100, estándar 2 vidas, Determination. |
 | [[Modos de Mapa]] | Mapa con salida / con timer / Juggernaut + Timer Block. |
 | [[LPS]] | Last Player Standing: qué es y qué cambia. |
